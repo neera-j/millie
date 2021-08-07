@@ -1,8 +1,21 @@
 
 
-# Anagha
-Me On Telegram [✨Anagha✨](https://t.me/@Anagha_gbot)
-This is just a demo bot.. Don't try to add to your group.. Create your own bot 
-## How To Host
-The easiest way to deploy this Bot
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/neera-j/anaghabot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+# MILLIE
+A modular telegram Python bot running on python3 with an sqlalchemy database.
+
+Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
+simple to use.
+
+Can be found on telegram as [Eᴍᴍᴀ Sᴛᴏɴᴇ ◤](https://t.me/cp_managerbot)
+
+EMMA STONE and I are moderating a [support group](https://t.me/cpbotssupport), where you can ask for help setting up your
+bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. Of course
+I'll also help when a database schema changes, and some table column needs to be modified/added. Note to maintainers that all schema changes will be found in the commit messages, and its their responsibility to read any new commits.
+
+
+Alternatively, [find me on telegram](https://t.me/neer_j)! (Keep all support questions in the support chat, where more people can help you.)
+
+# FEEL FREE
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/neera-j/millie)
+
