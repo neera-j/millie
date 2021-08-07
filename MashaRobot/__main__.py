@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *Anagha*
+`Hellow My name is` *𝐌𝐈𝐋𝐋𝐈𝐄 ◤*
 `I'm here to help you to make your group managment task easier! TAP` *Commands* `Use buttons given below to know more about me.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ADD ME", url="t.me/anagha_gbot?startgroup=true"),
+            text="ADD ME", url="t.me/cp_managerbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ABOUT", callback_data="Masha_"),
@@ -346,16 +346,16 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Anagha*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *𝐌𝐈𝐋𝐋𝐈𝐄 ◤*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
                  ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
-                 \n_Anagha's licensed under the GNU General Public License v3.0_
+                 \n_𝐌𝐈𝐋𝐋𝐈𝐄 ◤'s licensed under the GNU General Public License v3.0_
                  Here is the [SUPPORT](https://t.me/tubots).
-                 If you have any question about Anagha, let us know at @tubots.""",
+                 If you have any question about 𝐌𝐈𝐋𝐋𝐈𝐄 ◤, let us know at @cpbotssupport.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -381,7 +381,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Anagha* I'm the fuuniest bot to use in your Groups with so many cool features.""",
+            text=""" Hi..🤗 I'm *𝐌𝐈𝐋𝐋𝐈𝐄 ◤* I'm the fuuniest bot to use in your Groups with so many cool features.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
