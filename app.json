@@ -1,24 +1,18 @@
 {
-      "name": "𝐌𝐈𝐋𝐋𝐈𝐄 ◤",
-      "description": "Telegram group management bot.",
-      "keywords": [
-         "telegram",
+    "name": "𝐌𝐈𝐋𝐋𝐈𝐄 ◤",
+    "description": "Telegram group management bot",
+    "logo": "https://i.pinimg.com/originals/56/e2/47/56e2474c298ebfe1512c23fb423ca0f4.png",
+    "keywords": [
+        "telegram",
          "anime",
          "group",
          "manager",
          "Millie"
-      ],   
-   "repository": "https://github.com/neera-j/millie",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-   "env": {
-      "TOKEN": {
+    ],
+    "repository": "https://github.com/neera-j/millie",
+    "success_url": "https://telegram.dog/cpbotz",
+    "env": {
+        "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
          "value": "1818134264:AAFj--fXxty8C3wcEH9jIPftMzPejH0zEEI"
@@ -194,7 +188,7 @@
          "required": false,
          "value": ""
       }
-      },
+    },
     "buildpacks": [
         {
             "url": "heroku/python"
@@ -204,5 +198,6 @@
         "worker": {
             "quantity": 1,
             "size": "free"
-   }
+        }
+    }
 }
